@@ -1,0 +1,28 @@
+{
+  "name": "@focus-reactive/inline-edit",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon --exec yarn prepare",
+    "prepare": "package-prepare"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@usulpro/package-prepare": "^1.2.1",
+    "nodemon": "^2.0.2"
+  },
+  "homepage": "https://github.com/GitNation/inline-edit",
+  "bugs": {
+    "url": "https://github.com/GitNation/inline-edit/issues"
+  },
+  "author": "Oleg Proskurin <oleg@focusreactive.com> (https://github.com/focusreactive)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitNation/inline-edit.git"
+  },
+  "license": "MIT"
+}
